@@ -1,7 +1,7 @@
 #include "Array.h"
 
 Array::Array(int size){
-	if(size<0)cout<<"ERROR Array size must be greater than 0"<<endl;
+	if(size<0)cout<<"branch ERROR Array size must be greater than 0"<<endl;
 	else {
 		data = new int[size];
 		len=size;
